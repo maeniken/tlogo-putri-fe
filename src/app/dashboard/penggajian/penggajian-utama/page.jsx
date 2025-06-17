@@ -483,7 +483,6 @@ function DaftarGaji() {
               </div>
             </div>
 
-            {/* Pagination */}
             <div className="flex justify-center items-center gap-1 mt-4">
               <button
                 onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
